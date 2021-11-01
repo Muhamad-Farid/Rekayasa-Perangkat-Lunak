@@ -1,0 +1,12 @@
+.gambar-walpaper img {
+    height: 150px;
+    width: 220px;
+    outline: white 1px solid;
+    border-radius: 5px;
+    float: left;
+    margin: 8px;
+}
+
+p {
+    text-decoration: underline;
+}

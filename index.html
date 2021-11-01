@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Music</title>
+    <link rel="icon" href="https://music.youtube.com/img/favicon_144.png" sizes="144x144" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black; height: 2000px;">
+    <!-- NavBAr -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="https://music.youtube.com/img/on_platform_logo_dark.svg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Eksplorasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Koleksi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i>Telusuri</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse navbar-nav nav-item" id="navbarNav">
+            <a class="nav-link ms-auto rounded-3 navbar-dark" href="#" style="background-color: #ff0000;">Kostumisasi</a>
+          </div>
+        </div>
+      </nav>
+      <!-- End NavBar -->    
+
+      <!-- Theme -->
+      <div class="container  text-white position-relative" style="margin-top: 5%;">
+        <h1 class="position-relative">Theme</h1>
+        <p class=" position-absolute" style="right: 5%; top: 15%; z-index: 999;" >Configuration</p>
+      </div>
+      <div class="container d-block mt-1 " style="text-decoration: none;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" style="margin-left: -2%;">
+            <div class="carousel-item active ">
+              <div>
+                <div class="position-relative">
+                  <div class="  container d-block ">
+                  <figure class="figure position-relative mt-3" style="margin-left: 8%;">
+                    <a href="../index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                    <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: rgb(255, 0, 0); left: 75%; top: 10px;"></div>
+                    <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: rgb(255, 0, 0); left: 90%; top: 10px;"></div>
+                    <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                    <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                    <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                    <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                    <div class="position-absolute" style="height: 5px; width: 40%; background-color: red; top: 82%;"></div>
+                    <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                    </div></a>
+                    <figcaption class="text-light">
+                      Default
+                    </figcaption>
+                  </figure>
+                  <figure class="figure position-relative ms-4">
+                    <a href="ui-customize/bumblebee/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                      <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: yellow; left: 75%; top: 10px;"></div>
+                      <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: yellow; left: 90%; top: 10px;"></div>
+                      <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 40%; background-color: yellow; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                      </div></a>
+                    <figcaption class="text-light">
+                      Bumbblebee
+                    </figcaption>
+                  </figure>
+                  <figure class="figure position-relative ms-4">
+                    <a href="ui-customize/mint-breze/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                      <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: aqua; left: 75%; top: 10px;"></div>
+                      <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: aqua; left: 90%; top: 10px;"></div>
+                      <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 40%; background-color: aqua; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                      </div></a>
+                    <figcaption class="text-light">
+                      Mint Breze
+                    </figcaption>
+                  </figure>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <div class="position-relative">
+                  <div class="  container d-block ">
+                  <figure class="figure position-relative mt-3" style="margin-left: 8%;">
+                    <a href="ui-customize/peach/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                    <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: peachpuff; left: 75%; top: 10px;"></div>
+                    <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: peachpuff; left: 90%; top: 10px;"></div>
+                    <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                    <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                    <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                    <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                    <div class="position-absolute" style="height: 5px; width: 40%; background-color: peachpuff; top: 82%;"></div>
+                    <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                    </div></a>
+                    <figcaption class="text-light">
+                      Peach
+                    </figcaption>
+                  </figure>
+                  <figure class="figure position-relative ms-4">
+                      <a href="ui-customize/hot-pink/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                      <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: rgb(241, 127, 146); left: 75%; top: 10px;"></div>
+                      <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: rgb(241, 127, 146); left: 90%; top: 10px;"></div>
+                      <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 40%; background-color: rgb(241, 127, 146); top: 82%;"></div>
+                      <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                      </div></a>
+                    <figcaption class="text-light">
+                      Hot Pink
+                    </figcaption>
+                  </figure>
+                  <figure class="figure position-relative ms-4">
+                      <a href="ui-customize/silver/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                      <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: silver; left: 75%; top: 10px;"></div>
+                      <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: silver; left: 90%; top: 10px;"></div>
+                      <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 40%; background-color: silver; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                      </div></a>
+                    <figcaption class="text-light">
+                      Silver
+                    </figcaption>
+                  </figure>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <div class="position-relative">
+                  <div class="  container d-block ">
+                  <figure class="figure position-relative mt-3" style="margin-left: 8%;">
+                    <a href="ui-customize/tangerine/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                    <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: rgb(255, 123, 0); left: 75%; top: 10px;"></div>
+                    <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: rgb(255, 123, 0); left: 90%; top: 10px;"></div>
+                    <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                    <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                    <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                    <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                    <div class="position-absolute" style="height: 5px; width: 40%; background-color: rgb(255, 123, 0); top: 82%;"></div>
+                    <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                    </div></a>
+                    <figcaption class="text-light">
+                      Tangerine
+                    </figcaption>
+                  </figure>
+                  <figure class="figure position-relative ms-4">
+                      <a href="ui-customize/sky/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                      <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: skyblue; left: 75%; top: 10px;"></div>
+                      <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: skyblue; left: 90%; top: 10px;"></div>
+                      <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 40%; background-color: skyblue; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                      </div></a>
+                    <figcaption class="text-light">
+                      Sky
+                    </figcaption>
+                  </figure>
+                  <figure class="figure position-relative ms-4">
+                      <a href="ui-customize/ivory/index.html"><div class="border border-white position-relative" style="height: 195px; width: 345px;">
+                      <div class="position-absolute rounded-1" style="height: 10px; width: 40px; background-color: tan; left: 75%; top: 10px;"></div>
+                      <div class=" rounded-circle position-absolute" style="height: 10px; width: 10px; background-color: tan; left: 90%; top: 10px;"></div>
+                      <div class="position-absolute" style="height: 80px; width: 140px; background-color: gray; left: 7%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 60px; background-color: white; left: 55%; top: 20%;"></div>
+                      <div class="position-absolute" style="height: 10px; width: 100px; background-color: gray; left: 55%; top: 30%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 100%; background-color: white; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 5px; width: 40%; background-color: tan; top: 82%;"></div>
+                      <div class="position-absolute" style="height: 30px; width: 100%; background-color: gray; top: 84.5%;"></div>
+                      </div></a>
+                    <figcaption class="text-light">
+                      Ivory
+                    </figcaption>
+                  </figure>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev rounded-circle bg-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="background-color: white; height: 100px; width: 100px; color: black; margin-left: 2.4%; margin-top: 5%;">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black;"></span>
+            <span class="visually-hidden" style="color: black;">Previous</span>
+          </button>
+          <button class="carousel-control-next rounded-circle  bg-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="background-color: white; height: 100px; width: 100px; color: black; margin-right: 4.5%; margin-top: 4.5%;">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="color: black;"></span>
+            <span class="visually-hidden" style="color: black;">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- End Theme -->
+
+
+      <!-- Walpaper -->
+      <div class="container text-light position-relative mt-3">
+        <h1 class="position-relative">Walpaper</h1>
+        <!-- <p class="position-absolute" style="right: 3%; top: 15%; z-index: 999;">Add From Your Library</p> -->
+        <!--  -->
+        <!-- Button trigger modal -->
+<button type="button" class="btn position-absolute text-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="right: 3%; top: 15%; text-decoration: underline;">
+  Add From Your Library
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark" id="staticBackdropLabel">Upload Walpaper</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary" data-bs-target="modal">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+      <div class="container " >
+        <div class="container  " >
+          <div class="container ">
+            <div class="container gambar-walpaper m-3">
+            <a href="walpaper/1/index.html"><img src="gallery/images (1).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/2/index.html"><img src="gallery/images (2).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/3/index.html"><img src="gallery/images (3).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/4/index.html"><img src="gallery/images (4).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/5/index.html"><img src="gallery/images (5).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/6/index.html"><img src="gallery/images (6).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/7/index.html"><img src="gallery/images (7).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/8/index.html"><img src="gallery/images (8).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/9/index.html"><img src="gallery/images (9).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/10/index.html"><img src="gallery/images (10).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/11/index.html"><img src="gallery/images (11).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/12/index.html"><img src="gallery/images (12).jpeg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/13/index.html"><img src="gallery/images (13).jpg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/14/index.html"><img src="gallery/images (14).jpg" alt=""></a>
+          </div>
+          <div class="container gambar-walpaper m-3">
+            <a href="walpaper/15/index.html"><img src="gallery/images (15).jpg" alt=""></a>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Walpaper -->
+
+
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.js"></script>
+        <script src="js/popper.min.js"></script>
+</body>
+</html>
